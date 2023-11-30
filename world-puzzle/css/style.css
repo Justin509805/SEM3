@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14213d;
+  }
+
+/* background (wooden box for the shapes to be put in */
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dragme {
+    overflow: hidden;
+    cursor: move;
+    display: block;
+    position: fixed;
+  }
+
+  /* each shape with a different top and left so they arent completely stacked */
+  .dragme:nth-child(1) {
+    left: 1vw;
+    top: 1vw;
+  }
+  img:nth-child(2) {
+    left: 2vw;
+    top: 2vw;
+  }
+  img:nth-child(3) {
+    left: 3vw;
+    top: 3vw;
+  }
+  img:nth-child(4) {
+    left: 4vw;
+    top: 4vw;
+  }
+  img:nth-child(5) {
+    left: 5vw;
+    top: 5vw;
+  }  img:nth-child(6) {
+    left: 6vw;
+    top: 6vw;
+  }  img:nth-child(7) {
+    left: 7vw;
+    top: 7vw;
+  }
+  img:nth-child(8) {
+    left: 8vw;
+    top: 8vw;
+  }

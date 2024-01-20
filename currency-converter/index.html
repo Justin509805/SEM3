@@ -1,0 +1,60 @@
+<!-- define document type and language -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head section with metadata and title -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+
+    <!-- link to stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- link to Google Fonts and Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="change.png">
+
+    <!-- link to js files -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/aac88d4c3a.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- body section with content -->
+<body>
+    <!-- main container for the converter -->
+    <div class="converter-container">
+        <!-- heading for the converter -->
+        <h1>CURRENCY CONVERTER</h1>
+
+        <!-- container for currency selection and amount input -->
+        <div class="from-amount-to-container">
+            <!-- container for selecting 'from' currency -->
+            <div class="currency-from">
+                <label for="fromCurrency">From:</label>
+                <select id="fromCurrency"></select>
+            </div>
+
+            <!-- container for entering the amount -->
+            <div class="currency-amount">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+
+            <!-- container for selecting 'to' currency -->
+            <div class="currency-to">
+                <label for="toCurrency">To:</label>
+                <select id="toCurrency"></select>
+            </div>
+        </div>
+
+        <!-- button to trigger the function called convert() -->
+        <button onclick='convert()'>Convert<i class="fa-solid fa-arrow-right"></i></button>
+
+        <!-- display the result -->
+        <p id="result">Result will appear here</p>
+    </div>
+</body>
+</html>

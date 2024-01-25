@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"> <!-- charset -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport -->
+  <title>MyFitnessPal</title> <!-- title -->
+  <link rel="stylesheet" href="style.css"> <!-- stylesheet -->
+  <script src="https://kit.fontawesome.com/aac88d4c3a.js" crossorigin="anonymous"></script> <!-- font awesome script -->
+</head>
+<body>
+
+<section class="info">
+   <div class="username">
+      <p>Justin Veenhuis</p> <!-- username -->
+    </div>
+   <div class="main-container">
+       <div class="container">
+         <!-- calories -->
+         <div class="child"> 
+           <div class="circular">
+             <div class="inner"></div>
+             <div class="outer"></div>
+             <div class="numb">
+             </div>
+             <div class="tot-numb"><p>/2000</p> <!-- calories goal -->
+             </div>
+             <div class="circle">
+                <div class="bar left">
+                   <div  id="green" class="progress"></div> <!-- calories progress bar left -->
+                </div>
+                <div class="bar right">
+                   <div  id="green" class="progress"></div> <!-- calories progress bar right -->
+                </div>
+             </div>
+          </div>
+          <p>Calories</p>
+         </div>
+       
+         <!-- protein -->
+         <div class="child"> 
+           <div class="circular">
+             <div class="inner"></div>
+             <div class="outer"></div>
+             <div class="numb">
+             </div>
+             <div class="tot-numb"><p>/180g</p> <!-- protein goal -->
+             </div>
+             <div class="circle">
+                <div class="bar left">
+                   <div id="blue" class="progress"></div> <!-- protein progress bar left -->
+                </div>
+                <div class="bar right">
+                   <div id="blue" class="progress"></div> <!-- protein progress bar right -->
+                </div>
+             </div>
+          </div>
+          <p>Protein</p>
+         </div>
+       </div>
+       
+       <div class="container">
+              <!-- carbs -->
+              <div class="child carbs"> 
+                <div class="circular">
+                  <div class="inner"></div>
+                  <div class="outer"></div>
+                  <div class="numb">
+                  </div>
+                  <div class="tot-numb"><p>/300g</p> <!-- carbs goal -->
+                  </div>
+                  <div class="circle">
+                     <div class="bar left">
+                        <div id="red" class="progress"></div> <!-- carbs progress bar left -->
+                     </div>
+                     <div class="bar right">
+                        <div id="red" class="progress"></div> <!-- carbs progress bar right -->
+                     </div>
+                  </div>
+               </div>
+               <p>Carbs</p>
+              </div>
+       
+                     <!-- fats -->
+                     <div class="child fats"> 
+                      <div class="circular">
+                        <div class="inner"></div>
+                        <div class="outer"></div>
+                        <div class="numb">
+                        </div>
+                        <div class="tot-numb"><p>/70g</p> <!-- fats goal -->
+                        </div>
+                        <div class="circle">
+                           <div class="bar left">
+                              <div id="orange" class="progress"></div> <!-- fats progress bar left -->
+                           </div>
+                           <div class="bar right">
+                              <div id="orange" class="progress"></div> <!-- fats progress bar right -->
+                           </div>
+                        </div>
+                     </div>
+                     <p>Fats</p>
+                    </div>
+       </div>
+       
+       <div class="container steps">
+          <div class="child-steps">
+             <div class="numb-steps"></div>
+             <div class="tot-numb"><p>/6000 <i class="fa-solid fa-shoe-prints"></i></p> <!-- steps goal with shoe icon -->
+             </div>
+             <p>Steps</p>
+          </div>
+       
+          <div class="child-steps">
+             <div class="numb-burnt"></div>
+             <div class="tot-numb"><p>/200 <i class="fa-solid fa-fire"></i></p> <!-- activity goal with fire icon -->
+             </div>
+             <p>Activity</p>
+          </div>
+       </div>
+   </div>
+   
+</section>
+
+<nav>
+   <div class="nav-bg">
+      <div class="icons">
+         <a href="index.html"><i class="fa-solid fa-border-all active"></i></a> <!-- dashboard icon -->
+         <a href="log.html"><i class="fa-solid fa-pen-to-square"></i></a> <!-- logbook icon -->
+         <a href="settings.html"><i class="fa-solid fa-gear"></i></a> <!-- settings icon -->
+      </div>
+      <div class="names">
+         <p>Dashboard</p>
+         <p>Logbook</p>
+         <p>Settings</p>
+      </div>
+   </div>
+</nav>
+
+
+<script src="script.js"></script> <!-- script source -->
+</body>
+</html>
+
